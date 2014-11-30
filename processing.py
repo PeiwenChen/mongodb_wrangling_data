@@ -113,7 +113,7 @@ print line in reader :
 
 def test():
     data = process_file(DATAFILE, FIELDS)
-    pprint.pprint(data)
+    # pprint.pprint(data)
     # pprint.pprint(data[0])
     assert data[0] == {
                         "synonym": None, 
